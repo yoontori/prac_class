@@ -1,0 +1,35 @@
+---
+
+title: "Rmarkdown Test"
+
+author: "20181288 윤지현"
+
+date: '2021 3 11 '
+
+output: html_document
+
+---
+
+## Rmarkdown Test
+
+```{r global_option, include=FALSE}
+
+knitr::opts_chunk$set(fig.width=8, fig.height=8,fig.path='Figs/',fig.keep='high', warning=FALSE, message=FALSE)
+
+set.seed(123123)
+
+```
+
+ 
+
+ 
+
+```{r}
+
+data(iris)
+
+library(knitr)
+
+kable(iris[1:10,])
+
+```
