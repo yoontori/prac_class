@@ -4,6 +4,6 @@ hi everyone!
 
 ## subtitle
 
-   - teset1
-   - bulet 2
-   - something
+   - subtitle1
+   - subtitle2
+   - subtitle3
